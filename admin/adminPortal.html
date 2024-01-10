@@ -1,0 +1,74 @@
+<!-- 
+Name: Mallory Newberry
+Created on: 09/29/23
+Modified on: 10/22/23
+adminPortal.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../greeno/css/bootstrap.min.css">
+    <!-- index.html style css -->
+    <link rel="stylesheet" href="../greeno/css/style.css">
+    <!-- page css -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../greeno/css/responsive.css">
+    <!-- portal specific css -->
+    <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                    <div class="full">
+                    <div class="center-desk">
+                        <div class="logo"> <a href="../greeno/index.html"><img src="../greeno/images/logo.png" alt="../greeno/#"></a> </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                    <div class="menu-area">
+                    <div class="limit-box">
+                        <nav class="main-menu">
+                            <ul class="menu-area-main">
+                                <li class="active"> <a href="../greeno/#">Home</a> </li>
+                                <li><a href="logout.php">Logout</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- end header inner -->
+    </header>
+    <!-- end header -->
+    <div class="portal_container">
+        <h1>Admin Portal</h1>
+        <ul>
+            <li><a href="adminRegistration.php">Register an Admin</a></li>
+            <li><a href="viewAdmins.php">View All Admins</a></li>
+            <!-- <li><a href="../plantsAndImages/plantsAndImagesForm.php">Add Plants and/or Images</a></li>
+            <li><a href="../plantsAndImages/viewPlants4Sale.php">View Plants Posted for Sale</a></li> -->
+            <li><a href="../reviews/viewReviews.php">View Reviews of Products</a></li>
+            <li><a href="../categories/categoriesForm.php">Add Category</a></li>
+            <li><a href="../categories/viewCategories.php">View All Categories</a></li>
+            <li><a href="../shipments/shipmentsForm.php">Add Shipment</a></li>
+            <li><a href="../shipments/viewShipments.php">View All Shipments</a></li>
+            <li><a href="../nurseries/nurseriesForm.php">Add Nursery</a></li>
+            <li><a href="../nurseries/viewNurseries.php">View Nurseries</a></li>
+            <li><a href="viewCustomers.php">View Customers</a></li>
+            <li><a href="cannedReports.php">Canned Reports</a></li>
+        </ul>
+    </div>
+</body>
+</html>
