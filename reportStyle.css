@@ -1,0 +1,45 @@
+/* css for reports */
+body {
+    height: 100vh;
+    margin: 0;
+    text-align: left;
+}
+.h1_form2 {
+    text-align: center;
+    margin-top: 10%;
+}
+h2 {
+    text-align: left;
+    margin-top: 5%;
+}
+#chart-container {
+    margin-top: 5%;
+    margin: 0 auto;
+    display: block;
+}
+#chart-container-can {
+    margin-top: 5%;
+    margin-left: 10px;
+    /* margin: 0 auto;
+    display: block; */
+}
+#legend-container {
+    float: left;
+    margin-left: 50px; 
+    padding: 40px;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.paragraph-text {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 10px; 
+}
